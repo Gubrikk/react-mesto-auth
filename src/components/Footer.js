@@ -8,7 +8,7 @@ function Footer({loggedIn}) {
             </>)
             : ('')
         }
-  	</footer>
+    </footer>
   );
 }
 
