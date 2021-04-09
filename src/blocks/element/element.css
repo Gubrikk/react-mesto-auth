@@ -1,0 +1,16 @@
+@import url(./__image/element__image.css);
+@import url(./__name/element__name.css);
+@import url(./__info-like/element__info-like.css);
+@import url(./__info-like/_active/element__info-like_active.css);
+@import url(./__info-like-counter/element__info-like-counter.css);
+@import url(./__info/element__info.css);
+@import url(./__trash/element__trash.css);
+@import url(./__trash/_active/element__trash_active.css);
+@import url(./__title/element__title.css);
+
+.element {
+    position: relative;
+    max-width: 282px;
+    border-radius: 10px;
+    overflow: hidden;
+}

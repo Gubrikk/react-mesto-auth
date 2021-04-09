@@ -1,0 +1,6 @@
+.element__info-like_active {
+    background: url('../../../../images/active.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+}

@@ -1,0 +1,39 @@
+@import url(./__container/popup__container.css);
+@import url(./__close-icon/popup__close-icon.css);
+@import url(./__field-job/popup__field-job.css);
+@import url(./__field-name/popup__field-name.css);
+@import url(./__field/popup__field.css);
+@import url(./__field/_state/popup__field_state_invalid.css);
+@import url(./__title/popup__title.css);
+@import url(./__text/popup__text.css);
+@import url(./__icon/popup__icon.css);
+@import url(./__submit-button/popup__submit-button.css);
+@import url(./__submit-button/_invalid/popup__submit-button_invalid.css);
+@import url(./__preview-text/popup__preview-text.css);
+@import url(./__preview-image/popup__preview-image.css);
+@import url(./__preview/popup__preview.css);
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+@media (max-width: 560px) {
+    .popup {
+      padding-right: 19px;
+      padding-left: 19px;
+    }
+}

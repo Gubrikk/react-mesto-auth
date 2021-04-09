@@ -1,0 +1,16 @@
+.element__info-like {
+    border: 0;
+    background-image: url("../../../images/Vector-like.svg");
+    background-color: #fff;
+    width: 21px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: 0;
+}
+
+.element__info-like:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}

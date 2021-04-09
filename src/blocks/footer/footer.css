@@ -1,0 +1,9 @@
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    flex-shrink: 0;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 882px;
+}
